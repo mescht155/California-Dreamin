@@ -1,0 +1,79 @@
+:root {
+  --screen-max: 1200px;
+  --base-font: 'Montserrat', sans-serif;
+  --base-font2: 'Open sans', serif;
+
+  --grey-light: #fefefe;
+  --grey-dark: #525252;
+  --grey: #696969;
+
+  --font-color-light: var(--grey-dark);
+
+  --main-padding: 1rem;
+}
+
+body {
+  font-family: var(--base-font);
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+
+}
+
+header {
+  display: flex;
+  width: 100%;
+
+}
+
+
+
+nav {
+  margin-right: 7em;
+  display: flex;
+  font-family: var(--base-font);
+
+}
+
+li {
+  list-style: none;
+
+}
+
+.main-navigation {
+  display: none;
+  list-style-image: none;
+
+
+}
+
+a {
+  font-family: var(--base-font);
+}
+
+#logo {
+  margin: auto;
+}
+
+p {
+  color:black;
+  text-align: center;
+}
+
+.hero-image {
+  width: 75%;
+  height: 100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
